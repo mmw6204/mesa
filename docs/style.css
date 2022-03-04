@@ -6,14 +6,17 @@ font-family: arial, helvetica, sans-serif; }
 /*body section section { background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet); padding:2em;}
 body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
 
-body section.writing {
-    background-color:purple;
+figure {width:30%;}
+figure > img {width:50%; max-width:200px;}
+
+/*body section.writing {
+    background-color:yellow;
     margin:auto;
     padding:2em;
 
     display:flex;
     flex-direction:row; 
-    /*justify-content:space-around;*/
+    /\*justify-content:space-around;*\/
 }
 
 section.writing figure {
@@ -33,13 +36,13 @@ section.writing div.analysis {
 
 
 body section.gallery {
-  width: 50%;
+  width: 80%;
     background-color: lavender; 
     padding:2em; 
     margin:auto; 
     display:flex;
     flex-direction:row;
-    }
+    }*/
 
 /* ebb: This is a comment in CSS: 
  * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
@@ -49,7 +52,7 @@ body section.gallery {
 section.gallery figure {flex: 1; margin:auto; padding-top: 1vw; padding-bottom: 1vw; }
 figcaption {font-style: italic; font-size: smaller;}
 
-img.photo {max-width:10px; width:50%}
+img.photo {max-width:100px; width:80%}
 /* If I want to style ANY element with the class of "photo" I could just write 
  * .photo { }
  *  */
@@ -86,24 +89,24 @@ a:active {
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
  *  */
  
- nav {background-color:aqua;
- display:flex;
+ nav {background-color:lavender;
+ /*display:flex*/;
  
  }
 
- nav > img.photo {
-max-width:10px;
+/* nav > img.photo {
+max-width:100px;
      flex:1;
- }
+ }*/
  
- nav > ul.menuB {
+ nav > ul {
  list-style-type: none;
-flex:9;
+/*flex:9;*/
   
 }
 
 
-nav ul.menuB li {
+nav ul li {
   display:inline;
   font-size: 1.5vw; /*padding:2vw;*/
   padding-left:1vw;
