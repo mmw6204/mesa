@@ -1,5 +1,5 @@
 body {color: indigo;
-background-color: lavender;
+background-color: Lavender;
 font-family: arial, helvetica, sans-serif; }
 /* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
 
@@ -89,7 +89,7 @@ a:active {
  * em is also responsive: it is the width of the standard letter M in your font usually 16 px. 
  *  */
  
- nav {background-color:lightblue;
+ nav {background-color:Violet;
  /*display:flex*/;
  
  }
